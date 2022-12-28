@@ -9,7 +9,7 @@ public class Main {
         System.out.print(ivaFunction(price));
 
     }
-    public static float ivaFunction(float value){
+    static float ivaFunction(float value){
         return value*1.19f;
     }
 }
