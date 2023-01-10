@@ -1,0 +1,6 @@
+______________________Tabla de resultado______________________
+Puesto   | Nombre del Jugador         | Score                 
+1          Juanito                      1000
+2          Juanita                      500
+3          Pepito                       0
+4          Alberto                      0

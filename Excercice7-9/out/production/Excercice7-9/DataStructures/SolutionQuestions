@@ -1,0 +1,11 @@
+____Pregunta____
+Indica cuál es el problema de utilizar un Vector con
+la capacidad por defecto si tuviésemos 1000 elementos para ser añadidos al mismo.
+
+___Respuesta____
+
+La capacity por defecto en java es de 10 elementos, y por cada vez que se supera esta cantidad
+dicha capacidad se duplica, siempre creando un array con el doble de capacidad que el anterior.
+Esto implica que no se pueda aprovechar muy optimamente la memoria del equipo. Además el tiempo de
+operaciones (guardar los elementos), sería mayor que si determinamos una capacity aproximada a la que
+necesitamos.
